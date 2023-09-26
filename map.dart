@@ -29,12 +29,27 @@ void main() {
   // stds[3] = 'luqman';
   // print(stds);
 
-  // putifabsent in map
-  Map stds = {
-    1: "akbar",
-    2: "tayab",
-  };
-  stds.putIfAbsent(3, () => 'ali');
-  print(stds);
-  print(stds[0]);
+  // // putifabsent in map
+  // Map stds = {
+  //   1: "akbar",
+  //   2: "tayab",
+  // };
+  // stds.putIfAbsent(3, () => 'ali');
+  // print(stds);
+  // print(stds[0]);
+
+  // List nums = [
+  //   {
+  //     1: 0,
+  //     0: [2],
+  //   },
+  //   {"3": "5"},
+  //   {
+  //     2: [
+  //       "hello",
+  //       {"hi": "its me", 7: 8},
+  //     ],
+  //   },
+  // ];
+  // print(nums[2][2][1]["hi"]);
 }
